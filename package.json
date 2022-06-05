@@ -1,0 +1,24 @@
+{
+  "name": "blindnet-test",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@blindnet/sdk-javascript": "^0.3.1",
+    "@blindnet/token-generator": "^0.0.3",
+    "@tailwindcss/forms": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "less": "^4.1.2",
+    "postcss": "^8.4.14",
+    "pug": "^3.0.2",
+    "tailwindcss": "^3.0.24",
+    "vite-plugin-pug": "^0.3.1"
+  }
+}

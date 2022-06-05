@@ -1,0 +1,43 @@
+@tailwind base;
+
+body {
+  @apply bg-slate-800;
+}
+
+h1 {
+  @apply text-slate-100;
+  @apply text-center font-bold text-2xl;
+  @apply my-8;
+}
+
+form {
+  @apply flex flex-col items-center justify-center;
+  @apply w-96;
+  @apply mx-auto;
+  @apply bg-slate-400;
+  @apply px-6 py-4;
+  @apply rounded-lg;
+
+  input {
+    @apply w-full;
+    @apply mb-4;
+
+    &[type="file"] {
+      @apply bg-white;
+    }
+  }
+
+  button[type="submit"] {
+    @apply rounded-lg;
+    @apply bg-blue-500;
+    @apply border border-blue-500;
+    @apply text-blue-50;
+    @apply shadow;
+    @apply w-full;
+    @apply py-2;
+
+    &:hover {
+      @apply bg-blue-400;
+    }
+  }
+}
